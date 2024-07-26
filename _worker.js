@@ -7,24 +7,41 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 let addresses = [
 	'icook.tw:2053#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
+	'bestcf.onecf.eu.org:443#域名.YT-01',
+	'2606:4700:::443#域名v6.YT-02',
+	'www.visa.com:443#域名.YT-03',
+	'www.visa.com.tw:443#域名.YT-04',
+	'www.visa.co.jp:443#域名.YT-05',
+	'whatismyipaddress.com:443#域名.YT-06',
+	'www.digitalocean.com:443#域名.YT-07',
+	'www.shopify.com:443#域名.YT-08',
+	'www.who.int:443#域名.YT-09',
+	'www.zsu.gov.ua:443#域名.YT-10',
+	'edtunnel-dgp.pages.dev:443#域名.YT-11',
+	'www.wto.org:443#域名.YT-12',
+	'www.okcupid.com:443#域名.YT-13',
+	'gur.gov.ua:443#域名.YT-14',
+	'www.visakorea.com:443#域名.YT-15',
+	'www.visa.com.sg:443#域名.YT-16',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+	'https://w2stxt.pages.dev/w2syt.txt?token=superykc',
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
+	//'www.visa.com.sg#官方优选域名',
+	//'www.wto.org:8080#官方优选域名',
+	//'www.who.int:8880#官方优选域名',
 ];
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 8;//速度下限
