@@ -17,14 +17,31 @@ let addressesapi = [
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
+	//'www.visa.com.sg#官方优选域名',
+	//'www.wto.org:8080#官方优选域名',
+	//'www.who.int:8880#官方优选域名',
+	'bestcf.onecf.eu.org:2086#域名.NT-01',
+	'2606:4700:::2086#域名v6.NT-02',
+	'www.visa.com:2086#域名.NT-03',
+	'www.visa.com.tw:2086#域名.NT-04',
+	'www.visa.co.jp:2086#域名.NT-05',
+	'whatismyipaddress.com:2086#域名.NT-06',
+	'www.digitalocean.com:2086#域名.NT-07',
+	'www.shopify.com:2086#域名.NT-08',
+	'www.who.int:2086#域名.NT-09',
+	'www.zsu.gov.ua:2086#域名.NT-10',
+	'edtunnel-dgp.pages.dev:2086#域名.NT-11',
+	'www.wto.org:2086#域名.NT-12',
+	'www.okcupid.com:2086#域名.NT-13',
+	'gur.gov.ua:2086#域名.NT-14',
+	'www.visakorea.com:2086#域名.NT-15',
+	'www.visa.com.sg:2086#域名.NT-16',
 ];
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://w2stxt.pages.dev/w2snt.txt?token=superykc',
 ];
 
 let DLS = 8;//速度下限
