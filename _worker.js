@@ -8,7 +8,7 @@ let addresses = [
 	'icook.tw:2053#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
 	'bestcf.onecf.eu.org:443#域名.YT-01',
-	'2606:4700:::443#域名v6.YT-02',
+	'[2606:4700::]:443#域名v6.YT-02',
 	'www.visa.com:443#域名.YT-03',
 	'www.visa.com.tw:443#域名.YT-04',
 	'www.visa.co.jp:443#域名.YT-05',
